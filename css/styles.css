@@ -1,0 +1,487 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?qhr2gt');
+    src:  url('../fonts/icomoon.eot?qhr2gt#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?qhr2gt') format('truetype'),
+      url('../fonts/icomoon.woff?qhr2gt') format('woff'),
+      url('../fonts/icomoon.svg?qhr2gt#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+  
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+.icon-twitter:before {
+    content: "\e900";
+}
+.icon-menu:before {
+    content: "\e901";
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Baloo 2', cursive;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+    margin: 0;
+}
+
+h1 strong {
+    color: #d5d5d5;
+}
+
+h2 {
+    color: #1b2127;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.burger-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(184, 204, 216, 0.7);
+    line-height: 40px;
+    display: none;
+    text-align: center;
+    position: fixed;
+    z-index: 4;
+    left: 5px;
+    top: 5px;
+    color: #434343;
+}
+
+.container {
+    max-width: 1024px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.contact {
+    background-color: #585858;
+    color: #d0d0d0;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact figure {
+    flex-grow: 1;
+}
+
+.contact figure img {
+    display: block;
+    text-align: center;
+}
+
+.form-email {
+    flex-grow: 1;
+    padding: 0 50px;
+}
+
+.form-email input {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%;
+    margin: 10px 0;
+}
+
+.form-email textarea {
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    padding: 10px;
+}
+
+.form-email button {
+    display: block;
+    background: #1b2127;
+    color: white;
+    border: 1px solid;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin: 1em auto;
+}
+
+.form-email h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+    color: white;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.experience-list-title {
+    margin-left: 20px;
+}
+
+.experience-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.experience {
+    margin: 1%;
+    width: 48%;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #1b2127;
+}
+
+.experience img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.experience-detail {
+    margin: 20px 40px;
+    margin-top: -60px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.experience-title{}
+
+.experience-description {
+    text-align: left;
+}
+
+.experience-imageWrapper{}
+
+.experience-url {
+    color: #1b1b1b;
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header ul {
+    display: flex;
+    height: inherit;
+}
+
+.header ul li {
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.hero {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero h1 {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.hero-img {
+    object-fit: cover;
+    width: 50%;
+}
+
+.logo {
+    align-self: center;
+    margin: 0 10px;
+}
+
+.menu {
+    height: inherit;
+}
+
+.portfolio {
+    background: #fafafa;
+    padding: 20px;
+}
+
+.project {
+    display: flex;
+    border: 1px solid rebeccapurple;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: #fff;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-course, .project-date, .project-url {
+    margin: 10px 0;
+}
+
+.project-course {
+    font-size: 16px;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project strong {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.project-details {
+    width: 50%;
+}
+
+.project-imageWrapper {
+    width: 50%;
+}
+
+.project-imageWrapper img {
+    max-width: 100%;
+}
+
+.project-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Desktop First */
+@media screen and (max-width: 1024px) {
+    body {
+        
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 767px) {
+    .burger-button {
+        display: block;
+    }
+    .contact {
+        height: auto;
+        padding: 1em 0;
+        display: block; 
+    }
+    .contact figure {
+        width: 100%;
+        text-align: center;
+    }
+    .contact figure img {
+        width: auto;
+        display: initial;
+    }
+    .experience {
+        width: auto;
+        flex-shrink: initial;
+    }
+    .experience img {
+        width: 100%;
+    }
+    .experience-detail {
+        margin: -2em .5em .5em;
+        padding: 2em;
+    }
+    .experience-list {
+        padding: 20px;
+    }
+    .form-email h3 {
+        margin-top: 0;
+    }
+    .header {
+        display: block;
+        height: auto;
+    }
+    .header a {
+        justify-content: center;
+        height: 40px;
+        font-size: 1.5em;
+        text-decoration: underline;
+        margin-bottom: .5em;
+    }
+    .header .logo {
+        text-align: center;
+    }
+    .header ul {
+        display: block;
+    }
+    .header ul li {
+        height: 50px;
+    }
+    .hero {
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .hero-img {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    .hero h1 {
+        width: 100%;
+        font-size: 2em;
+        z-index: 2;
+        background-color: rgba(29, 45, 54, 0.7);
+    }
+    .menu {
+        position: fixed;
+        background: rgba(27, 33, 39, 0.9);
+        z-index: 3;
+        top: 0;
+        left: -100vw;
+        width: 100vw;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+    }
+    .menu.is-active {
+        left: 0;
+    }
+    .project {
+        display: block;
+    }
+    .project-imageWrapper {
+        width: auto;
+        text-align: center;
+    }
+    .project-details {
+        width: auto;
+        font-size: 16px;
+    }
+    .project-course, .project-date, .project-url {
+        margin: .3em 0;
+    }
+    .project-title {
+        font-size: 1.5em;
+        margin-bottom: .3em;
+    }
+    .project-url {
+        font-size: 1em;
+    }
+    .project-course {
+        font-size: 1em;
+    }
+    .project-date {
+        font-size: 1em;
+    }
+    .project-description {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .project-details {
+        width: auto;
+        font-size: 1em;
+    }
+    .hero h1 {
+        width: 100%;
+        font-size: 1em;
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        min-width: 320px;
+    }
+    .form-email {
+        margin: 10px;
+        padding: 0;
+    }
+    .form-email input {
+        margin: 5px 0;
+        font-size: 1em;
+        width: 90%;
+    }
+    .form-email textarea {
+        font-size: 1em;
+    }
+}
